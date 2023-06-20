@@ -77,12 +77,14 @@ WSGI_APPLICATION = 'teams.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'teams',
-        'USER': 'root',
-        'PASSWORD': 'bsit2a1234',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'teams',
+        # 'USER': 'root',
+        # 'PASSWORD': 'bsit2a1234',
+        # 'HOST': 'localhost',
+        # 'PORT': '3306',
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": "mydatabase",
     }
 }
 
